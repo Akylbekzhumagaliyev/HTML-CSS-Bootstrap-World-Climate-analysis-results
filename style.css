@@ -1,0 +1,133 @@
+.body{
+  background-color: lightgrey;
+}
+.navbar-brand {
+  color: white !important;
+  background-color: rgb(66, 188, 192);
+  font-family: Impact, 'Arial', sans-serif;
+  font-size: 30px;
+  margin-left:100px !important;
+  padding-top: 5px !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-bottom: 5px !important;
+}
+
+h1 {
+color: rgb(66, 188, 192) !important;
+font-family: Impact, 'Arial', sans-serif;
+font-size: 35px;
+font-weight: 300;
+text-align: left;
+}
+h3 {
+  text-align: center;
+}
+
+.box {
+margin-top: 30px;
+color:lightseagreen;
+background: white;
+}
+.box-single {
+  margin-top: 30px;
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-bottom: 50px;
+  padding-top: 25px;
+  padding-left: 25px;
+  color:lightseagreen;
+  background: white; 
+}
+
+.box-left {
+padding: 20px;
+margin-bottom: 50px;
+}
+
+.box-right {
+padding: 20px;
+}
+
+#summary {
+margin: 10px;
+font-size: 15px;
+line-height: 1.8 em;
+}
+
+#summary-1 {
+  margin: 10px;
+  font-size: 15px;
+  line-height: 1.5 em;
+  color:black
+  }
+.hr2 {
+  border-top: solid rgb(66, 188, 192);
+  border-width: 5px;
+}
+.border-top {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  font-size: small;
+  font-family:  'Arial', sans-serif;
+  text-align: center !important;
+}
+
+#landing-viz {
+width: 100%;
+height: 100%;
+}
+#landing-viz-1 {
+  width: 100%;
+  height: 100%;
+  border: 5px solid rgb(66, 188, 192);
+  border-width: 2px !important;
+  }
+
+.jumbotron {
+color: black;
+background: white;
+width: 100%;
+height: 100%;
+margin-top: 30px;
+margin-left: 215px;
+margin-right: 215px;
+margin-bottom: 100px;
+padding-top: 25px;
+padding-left: 25px;
+
+}
+
+.table {
+color: black;
+background: white;
+width: 100%;
+height: 100%;
+padding: 15px;
+text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+      margin-top: 0;
+  }
+}
+@media (min-width: 992px) {
+  .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+      margin-top: 0;
+  }
+}
+@media (min-width: 768px) {
+  .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+      margin-top: 0;
+  }
+}
+@media (min-width: 420px) {
+.row.row-grid [class*="col-xs-"] + [class*="col-xs-"] {
+    margin-top: 0;
+}
+}
